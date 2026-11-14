@@ -1,0 +1,17 @@
+# Downstream finetuning (paper, Appendix "Training Recipe"): full finetuning,
+# up to 30 epochs, early stopping on a fixed 300-example dev subset (patience 5,
+# evaluated once per epoch). Effective batch 128 = 4 x 32 on one GPU; with k GPUs
+# set gradient_accumulation_steps to 32 / k.
+head_learning_rate: 1.0e-4
+backbone_learning_rate: 5.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+num_train_epochs: 30
+early_stopping_patience: 5
+save_total_limit: 12
+per_device_batch_size: 4
+gradient_accumulation_steps: 32
+max_length: 4096
+kl_lambda: 0.0

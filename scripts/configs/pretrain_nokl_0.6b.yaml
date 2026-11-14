@@ -1,0 +1,22 @@
+# CriteriaBank pretraining of VFM-0.6B (w/o KL) from Qwen/Qwen3-0.6B.
+# One epoch, effective batch 128 = 8 per GPU x 4 accumulation x 4 GPUs (torchrun).
+# The head starts from the unembedding rows of " Yes", "No", " Unknown" with
+# mean-centered bias. Saves every 1,000 steps.
+init_from_base: Qwen/Qwen3-0.6B
+train: data/criteriabank/train.jsonl
+output_dir: runs/pretrain_nokl_0.6b
+seed: 42
+head_learning_rate: 5.0e-4
+backbone_learning_rate: 5.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+weight_decay: 0.01
+max_grad_norm: 1.0
+num_train_epochs: 1
+early_stopping_patience: 0
+eval_steps: 1000
+save_total_limit: 2
+per_device_batch_size: 8
+gradient_accumulation_steps: 4
+max_length: 4096
+kl_lambda: 0.0

@@ -1,0 +1,610 @@
+[
+ {
+  "id": "aiact_01",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(1)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "Does the text explicitly inform the user that they are interacting with an AI system?"
+ },
+ {
+  "id": "aiact_02",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(1)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "Does the text identify the specific AI system or model being used?"
+ },
+ {
+  "id": "aiact_03",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(2)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "Does the text disclose that content may be AI-generated?"
+ },
+ {
+  "id": "aiact_04",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(2)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "If synthetic media is produced, is it marked or labeled as AI-generated?"
+ },
+ {
+  "id": "aiact_05",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(3)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "If emotion recognition is performed, does the text disclose this to the user?"
+ },
+ {
+  "id": "aiact_06",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(3)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "If biometric categorization is performed, does the text inform the user?"
+ },
+ {
+  "id": "aiact_07",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(1)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "Does the text disclose the provider or deployer of the AI system?"
+ },
+ {
+  "id": "aiact_08",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(1)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "Is the AI disclosure presented clearly and understandably to a non-technical user?"
+ },
+ {
+  "id": "aiact_09",
+  "regulation": "EU AI Act Article 50",
+  "article": "Article 50(1)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "financial_advisory",
+   "data_collection",
+   "general_ai",
+   "healthcare",
+   "payment_processing"
+  ],
+  "text": "Is the AI disclosure provided before or at the start of the interaction, rather than buried at the end?"
+ },
+ {
+  "id": "gdpr_01",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(a)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text identify the data controller (organization collecting the data)?"
+ },
+ {
+  "id": "gdpr_02",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(a)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text provide contact details for the data controller?"
+ },
+ {
+  "id": "gdpr_03",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(b)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text mention a data protection officer or provide their contact details?"
+ },
+ {
+  "id": "gdpr_04",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(c)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text state the purpose(s) for which personal data is being collected?"
+ },
+ {
+  "id": "gdpr_05",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(c)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text specify the legal basis for data processing?"
+ },
+ {
+  "id": "gdpr_06",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(e)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text identify the recipients or categories of recipients of the personal data?"
+ },
+ {
+  "id": "gdpr_07",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(1)(f)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text mention whether data will be transferred to a third country or international organization?"
+ },
+ {
+  "id": "gdpr_08",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(2)(a)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text specify the data retention period or criteria for determining it?"
+ },
+ {
+  "id": "gdpr_09",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(2)(b)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text inform the user of their right to access their personal data?"
+ },
+ {
+  "id": "gdpr_10",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(2)(b)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text inform the user of their right to rectification or erasure of personal data?"
+ },
+ {
+  "id": "gdpr_11",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(2)(c)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text inform the user of their right to withdraw consent?"
+ },
+ {
+  "id": "gdpr_12",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(2)(d)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text inform the user of their right to lodge a complaint with a supervisory authority?"
+ },
+ {
+  "id": "gdpr_13",
+  "regulation": "GDPR Article 13",
+  "article": "Article 13(2)(f)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Does the text disclose whether automated decision-making or profiling is used?"
+ },
+ {
+  "id": "gdpr_14",
+  "regulation": "GDPR Article 13",
+  "article": "GDPR Article 12(1)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "data_collection"
+  ],
+  "text": "Is the privacy information presented in a clear, concise, and easily accessible manner?"
+ },
+ {
+  "id": "regbi_01",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text disclose that the entity is acting as a broker-dealer?"
+ },
+ {
+  "id": "regbi_02",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text disclose the material fees and costs that apply to the customer's transactions?"
+ },
+ {
+  "id": "regbi_03",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text disclose the material fees and costs that apply to the customer's account?"
+ },
+ {
+  "id": "regbi_04",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text describe the type and scope of services provided to the customer?"
+ },
+ {
+  "id": "regbi_05",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text disclose any material limitations on securities or investment strategies that may be recommended?"
+ },
+ {
+  "id": "regbi_06",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(B)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text disclose conflicts of interest associated with the recommendation?"
+ },
+ {
+  "id": "regbi_07",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(1)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Does the text indicate whether the recommendation is being made in the customer's best interest?"
+ },
+ {
+  "id": "regbi_08",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(A)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Are fee disclosures specific enough for the customer to understand the actual cost impact?"
+ },
+ {
+  "id": "regbi_09",
+  "regulation": "SEC Regulation Best Interest",
+  "article": "17 CFR § 240.15l-1(a)(2)(i)(B)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "financial_advisory"
+  ],
+  "text": "Is the conflict of interest disclosure substantive rather than boilerplate?"
+ },
+ {
+  "id": "hipaa_01",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text disclose the types of uses and disclosures of protected health information (PHI) that the covered entity is permitted or required to make?"
+ },
+ {
+  "id": "hipaa_02",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(A)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text disclose that PHI may be used or disclosed for treatment, payment, and healthcare operations purposes?"
+ },
+ {
+  "id": "hipaa_03",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(C)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text inform the individual of their right to request restrictions on uses and disclosures of their PHI?"
+ },
+ {
+  "id": "hipaa_04",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(E)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text inform the individual of their right to inspect and obtain a copy of their PHI?"
+ },
+ {
+  "id": "hipaa_05",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(F)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text inform the individual of their right to amend their PHI?"
+ },
+ {
+  "id": "hipaa_06",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(G)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text inform the individual of their right to receive an accounting of disclosures of their PHI?"
+ },
+ {
+  "id": "hipaa_07",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(iii)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text state the covered entity's duties to protect PHI, including its obligation to notify individuals in the event of a breach?"
+ },
+ {
+  "id": "hipaa_08",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(vi)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text provide contact information for a designated privacy officer or contact person to receive complaints?"
+ },
+ {
+  "id": "hipaa_09",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(vi)",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Does the text inform the individual of their right to file a complaint with the covered entity and with the Secretary of HHS?"
+ },
+ {
+  "id": "hipaa_10",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Is the privacy notice written in plain language sufficient for a patient without legal or medical expertise to understand their rights and the entity's practices?"
+ },
+ {
+  "id": "hipaa_11",
+  "regulation": "HIPAA Privacy Rule",
+  "article": "45 CFR §164.520(b)(1)(ii)(A)",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "healthcare"
+  ],
+  "text": "Are the described uses and disclosures of PHI specific enough that the individual can reasonably understand how their health information may be shared?"
+ },
+ {
+  "id": "pcidss_01",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 3.2.1",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text avoid requesting or acknowledging storage of sensitive authentication data (CVV, CVC, full magnetic stripe data) after authorization?"
+ },
+ {
+  "id": "pcidss_02",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 3.4.1",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "If a card number is referenced, does the text display only the last four digits, masking all other digits?"
+ },
+ {
+  "id": "pcidss_03",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 3.1.1",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text disclose the organization's data retention policy for cardholder data, including the retention period?"
+ },
+ {
+  "id": "pcidss_04",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 4.2.1",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text disclose that cardholder data is encrypted during transmission over open or public networks?"
+ },
+ {
+  "id": "pcidss_05",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 4.2.1",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text identify the specific encryption protocol or standard used to protect cardholder data in transit?"
+ },
+ {
+  "id": "pcidss_06",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 12.8.2",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text disclose which third-party service providers will receive or have access to cardholder data?"
+ },
+ {
+  "id": "pcidss_07",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 12.8.4",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text disclose that third-party service providers handling cardholder data are monitored for their PCI-DSS compliance status?"
+ },
+ {
+  "id": "pcidss_08",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 12.10.1",
+  "type": "compliance",
+  "difficulty": "evidence_checkable",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Does the text inform the customer of the process or contact point for reporting a suspected payment data breach or security incident?"
+ },
+ {
+  "id": "pcidss_09",
+  "regulation": "PCI-DSS v4.0",
+  "article": "Requirement 12.3.1",
+  "type": "compliance",
+  "difficulty": "judgment_dependent",
+  "applicability_domains": [
+   "payment_processing"
+  ],
+  "text": "Is the explanation of data handling risks and protections sufficiently clear and specific to allow the customer to assess their exposure?"
+ }
+]

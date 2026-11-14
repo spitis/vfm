@@ -1,0 +1,17 @@
+# INSURE-Dial: synthetic dev accuracy saturates early, so train a fixed 20 epochs
+# without early stopping, keep every epoch's checkpoint, and select the checkpoint by
+# 5-fold cross-validation over the real calls (meta.fold of the test records).
+head_learning_rate: 1.0e-4
+backbone_learning_rate: 5.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+num_train_epochs: 20
+early_stopping_patience: 0
+load_best_model_at_end: false
+save_total_limit: 20
+per_device_batch_size: 4
+gradient_accumulation_steps: 32
+max_length: 4096
+kl_lambda: 0.0

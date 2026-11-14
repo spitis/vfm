@@ -1,0 +1,17 @@
+# DynaBench: fixed budget of 400 steps at batch 128, linear schedule, checkpoints every
+# 100 steps; the checkpoint and threshold with the best dev trace-level F1 are kept.
+head_learning_rate: 5.0e-5
+backbone_learning_rate: 2.5e-5
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+max_steps: 400
+early_stopping_patience: 0
+eval_steps: 100
+load_best_model_at_end: false
+save_total_limit: 4
+per_device_batch_size: 4
+gradient_accumulation_steps: 32
+max_length: 4096
+kl_lambda: 0.0

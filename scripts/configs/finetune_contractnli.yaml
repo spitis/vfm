@@ -1,0 +1,14 @@
+# As finetune.yaml, with 8192-token prefixes (about 9% of contracts exceed 4096 tokens).
+head_learning_rate: 1.0e-4
+backbone_learning_rate: 5.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+num_train_epochs: 30
+early_stopping_patience: 5
+save_total_limit: 12
+per_device_batch_size: 4
+gradient_accumulation_steps: 32
+max_length: 8192
+kl_lambda: 0.0

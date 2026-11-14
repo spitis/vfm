@@ -1,0 +1,18 @@
+VFM
+Copyright 2026 The VFM authors
+
+The released VFM checkpoints are finetuned from Qwen3-0.6B and Qwen3-4B
+(https://huggingface.co/Qwen), Copyright Alibaba Cloud, licensed under the
+Apache License, Version 2.0. The shipped tokenizer files are the unmodified
+Qwen3 tokenizer files.
+
+scripts/prepare/ifeval_checks.py follows the constraint-checking logic of the IFEval
+reference implementation, google-research/instruction_following_eval
+(https://github.com/google-research/google-research/tree/master/instruction_following_eval),
+Copyright The Google Research Authors, licensed under the Apache License, Version 2.0.
+
+Benchmark data is not redistributed, except for the synthetic governance
+benchmark (benchmarks/governance/, CC BY 4.0) and the DynaBench rule
+translations (benchmarks/dynabench/), which include the original DynaBench rule
+texts, Copyright (c) 2025 Monte Hoover, MIT License (full text in
+benchmarks/dynabench/README.md). See README.md for per-benchmark licenses.

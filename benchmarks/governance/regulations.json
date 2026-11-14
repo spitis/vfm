@@ -1,0 +1,76 @@
+{
+  "eu_ai_act_art50": {
+    "name": "EU AI Act Article 50",
+    "full_citation": "Regulation (EU) 2024/1689, Article 50",
+    "scope": "Transparency obligations for providers and deployers of AI systems",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689#:~:text=Article%2050",
+    "text_summary": "Article 50 establishes transparency requirements for AI systems that interact with humans, generate synthetic content, or perform emotion recognition and biometric categorization. It mandates that users must be informed when interacting with AI systems, that AI-generated content must be machine-readable and detectable, and that deployers of sensitive AI systems like emotion recognition or deepfakes must explicitly disclose their operation to affected individuals.",
+    "paragraphs": {
+      "50_1": "Providers shall ensure AI systems intended to interact with natural persons are designed and developed in such a way that the natural person is informed they are interacting with an AI system, unless this is obvious from the circumstances and context of use.",
+      "50_2": "Providers of AI systems that generate synthetic audio, image, video or text content shall ensure the outputs are marked in a machine-readable format and detectable as artificially generated or manipulated.",
+      "50_3": "Deployers of emotion recognition or biometric categorisation systems shall inform the natural persons exposed thereto of the operation of the system.",
+      "50_4": "Deployers of AI systems that generate or manipulate image, audio or video content constituting a deep fake shall disclose that the content has been artificially generated or manipulated."
+    }
+  },
+  "gdpr_art13": {
+    "name": "GDPR Article 13",
+    "full_citation": "Regulation (EU) 2016/679, Article 13",
+    "scope": "Information to be provided where personal data are collected from the data subject",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679#:~:text=Article%2013",
+    "text_summary": "Article 13 requires data controllers to provide comprehensive information to individuals when collecting their personal data directly from them. This includes identifying the controller and their legal basis for processing, explaining the purposes and retention periods, disclosing recipients and international transfers, and informing individuals of their rights including access, rectification, erasure, restriction, objection, portability, and the right to lodge complaints with supervisory authorities.",
+    "paragraphs": {
+      "13_1a": "The identity and contact details of the controller and, where applicable, the controller's representative.",
+      "13_1b": "The contact details of the data protection officer, where applicable.",
+      "13_1c": "The purposes of the processing for which the personal data are intended as well as the legal basis for the processing.",
+      "13_1d": "Where the processing is based on legitimate interests, the legitimate interests pursued by the controller or by a third party.",
+      "13_1e": "The recipients or categories of recipients of the personal data, if any.",
+      "13_1f": "Where applicable, the fact that the controller intends to transfer personal data to a third country.",
+      "13_2a": "The period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period.",
+      "13_2b": "The existence of the right to request access, rectification, erasure, restriction of processing, to object, and to data portability.",
+      "13_2c": "The right to withdraw consent at any time.",
+      "13_2d": "The right to lodge a complaint with a supervisory authority.",
+      "13_2e": "Whether the provision of personal data is a statutory or contractual requirement and the possible consequences of failure to provide such data.",
+      "13_2f": "The existence of automated decision-making, including profiling, and meaningful information about the logic involved.",
+      "12_1": "The controller shall take appropriate measures to provide any information referred to in Articles 13 and 14 relating to processing to the data subject in a concise, transparent, intelligible and easily accessible form, using clear and plain language."
+    }
+  },
+  "sec_reg_bi": {
+    "name": "SEC Regulation Best Interest",
+    "full_citation": "17 CFR § 240.15l-1 (Regulation Best Interest)",
+    "scope": "Disclosure obligation for broker-dealers making recommendations to retail customers",
+    "source_url": "https://www.ecfr.gov/current/title-17/chapter-II/part-240/subpart-A/subject-group-ECFR1da24e2e25f2e78/section-240.15l-1",
+    "text_summary": "Regulation Best Interest requires broker-dealers to act in the best interest of retail customers when making recommendations and to provide comprehensive disclosures about their relationship, services, and conflicts of interest. The disclosure obligation encompasses providing Form CRS, explaining the capacity in which they act, detailing all material fees and costs, describing the scope and limitations of services, and disclosing material conflicts of interest that could affect the recommendation.",
+    "paragraphs": {
+      "bi_general_1": "A broker, dealer, or a natural person who is an associated person of a broker or dealer, when making a recommendation of any securities transaction or investment strategy involving securities (including account recommendations) to a retail customer, shall act in the best interest of the retail customer at the time the recommendation is made, without placing the financial or other interest of the broker, dealer, or natural person who is an associated person of a broker or dealer making the recommendation ahead of the interest of the retail customer.",
+      "bi_disclosure_preamble": "The broker or dealer, prior to or at the time of the recommendation, provides the retail customer, in writing, full and fair disclosure of all material facts relating to the scope and terms of the relationship with the retail customer and all material facts relating to conflicts of interest that are associated with the recommendation.",
+      "bi_disclosure_iA": "All material facts relating to the scope and terms of the relationship with the retail customer, including (1) that the broker, dealer, or such natural person is acting as a broker-dealer with respect to the recommendation; (2) the material fees and costs that apply to the retail customer's transactions, holdings, and accounts; and (3) the type and scope of services provided to the retail customer, including any material limitations on the securities or investment strategies involving securities that may be recommended to the retail customer.",
+      "bi_disclosure_iB": "All material facts relating to conflicts of interest that are associated with the recommendation."
+    }
+  },
+  "hipaa_privacy": {
+    "name": "HIPAA Privacy Rule",
+    "full_citation": "45 CFR §164.520 — Notice of Privacy Practices",
+    "scope": "Content requirements for the Notice of Privacy Practices that covered entities must provide to individuals",
+    "source_url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-E/section-164.520",
+    "text_summary": "Section 164.520 requires covered entities to provide a notice of privacy practices describing how protected health information (PHI) may be used and disclosed, the individual's rights regarding their PHI, and the entity's legal duties. The notice must include descriptions of permitted uses for treatment, payment, and healthcare operations; individual rights to request restrictions, inspect, copy, and amend PHI; the entity's breach notification duties; and complaint procedures.",
+    "paragraphs": {
+      "520_b1": "A covered entity must provide a notice that is written in plain language and that contains the elements required by this paragraph.",
+      "520_b1_i": "The notice must contain a header that reads: 'THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.'",
+      "520_b1_iiA": "A description, including at least one example, of the types of uses and disclosures that the covered entity is permitted by this subpart to make for each of the following purposes: treatment, payment, and health care operations.",
+      "520_b1_iiC": "A statement of the individual's right to request restrictions on certain uses and disclosures of protected health information as provided by §164.522(a) and that the covered entity is not required to agree to a requested restriction, except in case of a disclosure restricted under §164.522(a)(1)(vi).",
+      "520_b1_iiE": "A statement of the individual's right to inspect and copy protected health information as provided by §164.524.",
+      "520_b1_iiF": "A statement of the individual's right to amend protected health information as provided by §164.526.",
+      "520_b1_iiG": "A statement of the individual's right to receive an accounting of disclosures of protected health information as provided by §164.528.",
+      "520_b1_iii": "A statement that the covered entity is required by law to maintain the privacy of protected health information, to provide individuals with notice of its legal duties and privacy practices with respect to protected health information, and to notify affected individuals following a breach of unsecured protected health information.",
+      "520_b1_vi": "A statement that individuals may complain to the covered entity and to the Secretary if they believe their privacy rights have been violated, a brief description of how the individual may file a complaint with the covered entity, and a statement that the individual will not be retaliated against for filing a complaint."
+    }
+  },
+  "pcidss_v4": {
+    "name": "PCI-DSS v4.0",
+    "full_citation": "Payment Card Industry Data Security Standard v4.0 (March 2022, updated March 2024)",
+    "scope": "Security standards for entities that store, process, or transmit cardholder data",
+    "source_url": "https://www.pcisecuritystandards.org/document_library/",
+    "text_summary": "PCI-DSS v4.0 establishes comprehensive security requirements for protecting cardholder data. Relevant requirements include data retention and disposal policies, prohibition of sensitive authentication data storage after authorization, PAN masking for display, strong cryptography for transmission over public networks, third-party service provider management, risk analysis documentation, and incident response planning.",
+    "paragraphs_note": "Excerpts omitted (PCI SSC copyright); see source_url."
+  }
+}
